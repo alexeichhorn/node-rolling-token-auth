@@ -1,0 +1,26 @@
+{
+  "name": "rolling-token-auth",
+  "version": "0.1.0",
+  "description": "Rolling Token verificator & generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeichhorn/node-rolling-token-auth.git"
+  },
+  "keywords": [
+    "authentication",
+    "token",
+    "generator",
+    "verification"
+  ],
+  "author": "Alexander Eichhorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexeichhorn/node-rolling-token-auth/issues"
+  },
+  "homepage": "https://github.com/alexeichhorn/node-rolling-token-auth#readme",
+  "dependencies": {}
+}
