@@ -29,7 +29,7 @@ class RollingTokenManager {
     }
 
     async _getKey(usecase = 'sign') {
-        return await crypto.subtle.importKey("raw", secretData, { name: 'HMAC', hash: 'SHA-256' }, false, [usecase])
+        return await crypto.subtle.importKey("raw", this.secretData, { name: 'HMAC', hash: 'SHA-256' }, false, [usecase])
     }
 
     currentTimestamp() {
