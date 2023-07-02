@@ -1,8 +1,9 @@
 {
   "name": "rolling-token-auth",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Rolling Token verificator & generator",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
   },
